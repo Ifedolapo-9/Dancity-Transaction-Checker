@@ -9,6 +9,8 @@ def main():
     response = requests.get('https://dancitysub.com/api/data/',
                             headers={'Authorization': 'Token 7f.insert your full token here....'})
 
+    #Getting API response
+    
     data = response.json()
     status = data["results"]
 
